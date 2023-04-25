@@ -67,13 +67,6 @@ def add_time(start, duration, day=''):
             if n_hour == 0:
                   n_hour = 12
 
-      # if n_hour >= 12:
-      #       if n_hour == 12: pass
-      #       else: n_hour -= 12
-      #       if am_pm == 'AM': am_pm = 'PM'
-      #       elif am_pm == 'PM':
-      #             am_pm = 'AM'
-      #             day = '(next day)'
 
       str_n_minute = ''
       if n_minute < 10:
